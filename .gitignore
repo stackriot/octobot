@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 node_modules/
 .idea
 coverage/
 *.log
 .DS_Store
 .env
+=======
+node_modules
+.DS_Store*
+.hubot_history
+>>>>>>> a36881bd955db0fa356edde2fef2637189acebad
