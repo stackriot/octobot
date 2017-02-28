@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-# hubot-slack
-
-This is a [Hubot](http://hubot.github.com/) adapter to use with [Slack](https://slack.com).
-
-[![Travis branch](https://img.shields.io/travis/slackapi/hubot-slack/master.svg?maxAge=2592000)](https://travis-ci.org/slackapi/hubot-slack)
-[![codecov](https://codecov.io/gh/slackapi/hubot-slack/branch/master/graph/badge.svg)](https://codecov.io/gh/slackapi/hubot-slack)
-[![npm (scoped)](https://img.shields.io/npm/v/hubot-slack.svg?maxAge=2592000)](https://www.npmjs.com/package/hubot-slack)
-
-Comprehensive documentation [is available](https://slackapi.github.io/hubot-slack).
-=======
-[![Build Status](https://drone.io/github.com/sethbergman/octobot/status.png)](https://drone.io/github.com/sethbergman/octobot/latest)
 # Octobot
 
 octobot is a chat bot built on the [Hubot][hubot] framework. It was
@@ -53,7 +41,7 @@ variables to be set as a simple form of configuration.
 
 Each script should have a commented header which contains a "Configuration"
 section that explains which values it requires to be placed in which variable.
-When you have lots of scripts installed this process can be quite labour
+When you have lots of scripts installed this process can be quite labor
 intensive. The following shell command can be used as a stop gap until an
 easier way to do this has been implemented.
 
@@ -224,4 +212,23 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
->>>>>>> a36881bd955db0fa356edde2fef2637189acebad
+
+=======
+# Hubot
+
+Hubot is a chat bot, modeled after GitHub's Campfire bot, hubot. He's pretty
+cool. He's [extendable with scripts](http://hubot.github.com/docs/#scripts) and can work on [many
+different chat services](https://hubot.github.com/docs/adapters/).
+
+This repository provides a library that's distributed by `npm` that you
+use for building your own bots.  See the [documentation](http://hubot.github.com/docs)
+for details on getting up and running with your very own robot friend.
+
+In most cases, you'll probably never have to hack on this repo directly if you
+are building your own bot. But if you do, check out [CONTRIBUTING.md](CONTRIBUTING.md)
+
+If you'd like to chat, drop by [#hubot](http://webchat.freenode.net/?channels=#hubot) on FreeNode IRC.
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
