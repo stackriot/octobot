@@ -1,7 +1,7 @@
 {
   "name": "octobot",
   "version": "0.0.0",
-  "description": "deployment automation",
+  "description": "A slackbot running on the hubot adapter",
   "main": "./slack",
   "scripts": {
     "test": "npm run mocha && istanbul report text-summary lcov",
@@ -25,7 +25,6 @@
   },
   "dependencies": {
     "hubot": "^2.18.0",
-    "hubot-amalekite-greet": "^1.0.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-flirt": "^1.0.1",
     "hubot-google-images": "^0.2.6",
